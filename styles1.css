@@ -11,11 +11,42 @@
 body{
     overflow: hidden;
  }
+ .cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    justify-content: center;
+ }
+ .cabeçalho-link a{
+    color: #fff;
+    font-size: 12px;
+ }
+ .cabeçalho-link a :hover{
+    color: #51284f;
+    transition: 0.3s all;
+ }
+ button{
+    color: #51284f;
+    border: solid 1px #51284f;
+    background: transparent;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: #51284f;
+    color: #fff;
+    transition: 0.5s;
+ }
+ 
  .background{
     display: flex;
     padding: 10px;
     gap: 10px;
-    background-color: plum;
+    background-color:#242424;
     width: 100%;
     height:100vh ;
     flex-direction: column;
@@ -30,7 +61,7 @@ body{
     border-radius: 30px;
  }
  .texto{
-    background-color: goldenrod;
+    background-color: none;
     height: 100px;
     width: 70%;
     padding-top: 10px;
@@ -41,14 +72,14 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: brown;
+    background-color: none;
     width: 20%;
     height: 50px;
     align-items: center;
  }
  .sociais .box1{
     display: flex;
-    background-color: gray;
+    background-color: #202020;
     width: 40px;
     height: 40px;
     align-items: center;
@@ -58,7 +89,7 @@ body{
  }
  .sociais .box2{
     display: flex;
-    background-color: gray;
+    background-color: #202020;
     width: 40px;
     height: 40px;
     align-items: center;
@@ -68,7 +99,7 @@ body{
  }
  .sociais .box3{
     display: flex;
-    background-color: gray;
+    background-color: #202020;
     width: 40px;
     height: 40px;
     align-items: center;
@@ -78,7 +109,7 @@ body{
  }
  .sociais .box4{
     display: flex;
-    background-color: gray;
+    background-color: #202020;
     width: 40px;
     height: 40px;
     align-items: center;
