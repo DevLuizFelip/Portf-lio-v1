@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    overflow: hidden;
+ }
+ .background{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: plum;
+    width: 100%;
+    height:100vh ;
+    flex-direction: column;
+ }
+ .image{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    width: 270px;
+    border: none;
+    border-radius: 30px;
+ }
+ .texto{
+    background-color: goldenrod;
+    height: 100px;
+    width: 70%;
+    padding-top: 10px;
+    border: none;
+    border-radius: 20px;
+ }
+ .sociais{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: brown;
+    width: 20%;
+    height: 50px;
+    align-items: center;
+ }
+ .sociais .box1{
+    display: flex;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+ }
+ .sociais .box2{
+    display: flex;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+ }
+ .sociais .box3{
+    display: flex;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+ }
+ .sociais .box4{
+    display: flex;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+ }
